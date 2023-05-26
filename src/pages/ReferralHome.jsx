@@ -98,6 +98,7 @@ const ReferralHome = () => {
       <p className="link">Friends Who Enrolled</p>
       <p className="link2">Terms & Conditions</p>
      <Link to="/referral-details"> <button className="next">Next Page</button></Link>
+     
     </>
   );
 };
