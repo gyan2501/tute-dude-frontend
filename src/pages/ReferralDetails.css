@@ -1,0 +1,111 @@
+.goback {
+  margin-left: 25px;
+  margin-top: -10px;
+  font-size: 16px;
+  display: none;
+  color: #800080;
+}
+.ref-code-bal {
+  display: flex;
+  justify-content: space-between;
+
+  width: 72%;
+  margin: auto;
+}
+
+.ref-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+  margin-bottom: 2px;
+  margin-top: 12px;
+}
+.ref-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.75em;
+  color: #000000;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid rgb(182, 179, 179);
+}
+
+.wallet {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #800080;
+}
+.bal {
+  width: 145px;
+  height: 85px;
+  text-align: center;
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+}
+
+.wallet {
+  margin-top: 20px;
+}
+
+.frnd {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #800080;
+  width: 72%;
+  margin: auto;
+}
+
+span {
+  color: #626262;
+}
+
+.frnd-div {
+  display: flex;
+  width: 72%;
+  margin: auto;
+  gap: 20px;
+}
+.child-div {
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  width: 358px;
+  height: 228px;
+}
+
+.Tc {
+  margin: 60px 0px 15px 230px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
+
+@media (max-width: 480px) {
+  .goback {
+    display: block;
+  }
+  .ref-code-bal {
+    width: 90%;
+  }
+  .frnd {
+    width: 90%;
+    margin: auto;
+  }
+  .frnd-div {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .Tc {
+    margin: 60px 0px 20px 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #800080;
+  }
+}
